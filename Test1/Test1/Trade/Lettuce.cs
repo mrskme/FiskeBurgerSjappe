@@ -13,5 +13,9 @@ namespace Test1
             Amount = amount;
             Name = "Isberg salat";
         }
+        public void SubtractLettuce()
+        {
+            Amount -= 1;
+        }
     }
 }

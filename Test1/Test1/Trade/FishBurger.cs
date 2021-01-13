@@ -14,5 +14,9 @@ namespace Test1
             Name = name;
             Amount = amount;
         }
+        public void SubtractFishBurger()
+        {
+            Amount -= 1;
+        }
     }
 }

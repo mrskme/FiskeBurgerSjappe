@@ -7,11 +7,8 @@ namespace Test1
         static void Main(string[] args)
         {
             var texBurger = new TexBurger();
-
-            texBurger.MakeBurger((FishName)0, "Fint",2);
-            texBurger.MakeBurger((FishName)1, "Grovt", 1);
-
-            texBurger.GiveBurgersToCustomer();
+            texBurger.CheckMakeAndGiveBurger((int)FishName.Laks, (int)BreadName.Fint, 1);
+            texBurger.CheckMakeAndGiveBurger((int)FishName.Ørret, (int)BreadName.Grovt, 2);
         }
     }
 }

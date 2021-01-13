@@ -14,5 +14,9 @@ namespace Test1
             Name = brødType;
             Amount = amount;
         }
+        public void subtractBread()
+        {
+            Amount -= 1;
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace Test1
         private string BurgerType;
         private string Lettuce;
         private string Bread;
+        public static int TotalBurgers;
 
         public Burger(string burgerType, string lettuceName, string bread)
         {
@@ -19,7 +20,7 @@ namespace Test1
         }
         public string MakeBurgerText()
         {
-            return $"Din burger består av {BurgerType} og {Lettuce} og {Bread}";
+            return $"Burger {TotalBurgers}\nBurger: {BurgerType} \nSalat: {Lettuce} \nBrød: {Bread}\n\n";
         }
     }
 }
